@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQ & Travel Tips</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html">Visit Taniti Island</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a data-nav href="index.html">Home</a>
+        <a data-nav href="lodging.html">Lodging</a>
+        <a data-nav href="activities.html">Activities</a>
+        <a data-nav href="transportation.html">Transportation</a>
+        <a data-nav href="faq.html">FAQ</a>
+      </nav>
+    </header>
+    <div class="rule"></div>
+
+    <section class="page-hero" style="background-image:linear-gradient(rgba(233,231,232,.84),rgba(233,231,232,.84)), url('images/beach.jpg');">
+      <h2>FAQ &amp; Travel Tips</h2>
+      <p>Helpful information for a smooth island visit, plus a contact form for traveler questions.</p>
+    </section>
+
+    <section class="content-grid">
+      <article class="content-card">
+        <h3>Travel Tips</h3>
+        <ul>
+          <li>Power outlets are 120 volts, the same as in the United States.</li>
+          <li>Alcohol is not served or sold between midnight and 9:00 a.m.</li>
+          <li>The drinking age on Taniti is 18.</li>
+          <li>Many younger Tanitians speak fluent English, while rural areas use less English.</li>
+          <li>There is one hospital and several clinics with multilingual employees.</li>
+          <li>Taniti uses the U.S. dollar, though many businesses also accept euros and yen.</li>
+          <li>Major credit cards are accepted in many locations.</li>
+        </ul>
+      </article>
+      <aside class="photo-stack">
+        <div class="photo-card">
+          <img src="images/city.jpg" alt="Coastal city view" />
+          <div class="caption">Plan your stay around activities in Taniti City and nearby beaches.</div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="contact-wrap" id="contact">
+      <div class="form-card">
+        <h3 style="margin-top:0; font-size:26px; color:#4c5567;">Contact</h3>
+        <p style="margin-top:0; color:#5b6476; font-size:17px;">For any questions, fill out the form below and we will contact you as soon as possible.</p>
+        <form id="contactForm">
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone Number</label>
+              <input id="phone" name="phone" type="tel" />
+            </div>
+            <div class="form-field full">
+              <label for="question">Question</label>
+              <textarea id="question" name="question" required></textarea>
+            </div>
+          </div>
+          <div class="submit-row">
+            <button class="primary-btn" type="submit" style="margin-top:0;">Submit</button>
+            <div class="status" id="formStatus" aria-live="polite"></div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="faq.html#contact">Contact</a>
+        <a href="faq.html">Travel Tips</a>
+        <a href="transportation.html#map">Map</a>
+        <a data-nav href="faq.html">FAQ</a>
+      </nav>
+    </footer>
+  </div>
+</body>
+</html>
